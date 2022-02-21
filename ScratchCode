@@ -1,0 +1,34 @@
+
+//Task  1a.)
+//HOW DO WE COUNT THE RECURSIVE CALLS? COUNTER FOR EACH RECURSIVE CALL?
+//Recursive Fibionacci sequence algowrithm
+//Returns integer that is the resulting Fibionacci number 
+//Takes parameter to go to the nth number in the Fibionacci sequence
+
+int RecursiveFibionacciSequence (int NthNumberInSequence)
+{
+   //Base case
+   if (n == 1)
+   {
+      return 1;
+   }
+   
+   if (n == 0)
+   {
+      return 0;
+   }
+   //Where we do our additions 
+   n = return RecursiveFibionacciSequence(n-1) + RecursiveFibionacci(n-2);
+}
+
+//Tastk 1b.)
+//Using an iterative solution for the Fibionacci sequence, store the resulting numbers in the sequence into 
+//a data structure to use for Euclid's algowrithm. Using Fibiionacci numbers in a Eculid algowrithm will produce the worst case scenario
+//for Euclid's algowrithm. 
+
+vector<int> IterativeFibionacciSequence (int NthNumberInSequence)
+{
+    vector<int> StoredFibionacciNumbers;
+    
+    
+}
